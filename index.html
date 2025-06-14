@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="XLany - Lead Automation AI for Real Estate Agencies. Qualify leads, schedule meetings, and convert effortlessly." />
+  <meta name="keywords" content="Real Estate Automation, Lead Generation, AI Assistant, XLany" />
+  <meta name="author" content="XLany" />
+  <title>XLany | Real Estate Lead AI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <img src="logo.png" alt="XLany Logo" class="logo" />
+    <nav>
+      <button onclick="scrollToSection('form')">Get Started</button>
+      <button onclick="scrollToSection('form')">Start Free Trial</button>
+      <button onclick="openDemo()">Watch Demo</button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Automate. Qualify. Close.</h1>
+      <p>The #1 AI Assistant for Real Estate Agencies.</p>
+      <button onclick="scrollToSection('form')">Get Started for Free</button>
+    </section>
+    <section class="features">
+      <div>
+        <h2>Lead Qualification</h2>
+        <p>AI-powered lead sorting, follow-up and response system.</p>
+      </div>
+      <div>
+        <h2>Meeting Scheduling</h2>
+        <p>Calendar integration with smart email and SMS reminders.</p>
+      </div>
+      <div>
+        <h2>Full Automation</h2>
+        <p>No human validation required — just plug and grow.</p>
+      </div>
+    </section>
+    <section class="form-section" id="form">
+      <h2>Try XLany Now</h2>
+      <form id="leadForm">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="tel" name="phone" placeholder="Phone" required />
+        <input type="text" name="property" placeholder="Property Type" />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 XLany. All rights reserved.</p>
+  </footer>
+  <div id="demoModal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close" onclick="closeDemo()">&times;</span>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Demo" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+</html>
